@@ -57,6 +57,18 @@ public class test extends JFrame
             }
 
         });
+
+        btnDraw.addActionListener(new AbstractAction() {
+            @Override
+            public void actionPerformed(ActionEvent e) {
+                Draw c = new Draw();
+                c.setVisible(true);
+            }
+        });
+
+
+
+
     }
 
 }
