@@ -12,8 +12,7 @@ import javax.swing.JPanel;
 public class DrawLine extends JPanel implements MouseListener, MouseMotionListener {
     Point sPoint = new Point(-1, -1);
     Point ePoint = new Point(-1, -1);
-    Vector points = new Vector();
-
+    Vector points = new Vector();K
 
     DrawLine(){
 
